@@ -1,0 +1,59 @@
+/* styles/quizStyles.css */
+
+/* クイズコンテナ */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* クイズ問題 */
+.quiz-question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* 選択肢ボタン */
+.choice-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+  background-color: #2980b9;
+}
+
+/* 正解・不正解のフィードバック */
+.feedback {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.correct {
+  color: #27ae60;
+}
+
+.incorrect {
+  color: #e74c3c;
+}
+
+/* クイズ結果 */
+.quiz-result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
